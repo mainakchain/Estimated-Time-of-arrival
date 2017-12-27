@@ -1,0 +1,41 @@
+FEATURES OF DATASET BEING GENERATED FOR GPS LAT-LONG DUMP AND GIVEN TO ME
+
+Origin: Origin of transportation
+Destination: Destination of transportation (abhi ke lie bas ek route consider kar rhe)
+toll_both: toll both kaha se gaari ja rhi h
+vehicle no. : kaun sa vehicle ja rha hai uska no.
+loading_out_time: kab load hokar chalna laga truck aur truck chalna shuru hua
+odometer_km: odometer of GPS device (ek vehicle ka agar do odometer_km minus karenge to distance between tolls milenge)
+ist_timestamp: kis time pe hai wo us toll both pe
+distance_from_toll: bekar hai .... wo is dataset ko banane ke lie use kia gya tha GPS lat-long se
+loading_in_time: kab loading hona shuru hua truck me
+start_date : kab start hone ki baat thi (scheduled starting date)
+eta: Scheduled time of arrival
+unloading_in_time: kab truck unload hona shuru hua
+slug: unique id for each trip
+
+
+FEATURES OF DATASET BEING FED TO MLPREGRESSOR
+
+toll_both : name of toll both
+vehicle no. : vehicle no. of transporting truck
+loading_out_time : kab nikla truck (raat ko nikla ki subha ko nikla)
+distance_travelled : distance from the previous toll (0 hai iska matlab wo us gaari ke lie pehla toll hai)
+time_travel: wo kis samay din ke travel kar rha (dono toll ke time ke beech ka average lie aur uska hours le lie ... matlab 12:00(toll 4) aur 16:00(toll 5) ko time_travel : 14 (from 14:00))
+day_of_travel : Sun, Mon ..... weekday of travel (0 to 6)
+month_of_travel : jan, feb ....(1 to 12)
+days_from_now : aaj se kitne din pehle ye journey hui thi
+time_btn_tolls : time kitna laga us toll tk aane me pichle toll se
+
+Additional features that can be extracted from GPS data dump from servers and or can be feature engineered
+
+stop : kitna baar stop hua truck
+idle: kitna der 
+season of travel: month ko group karke season banaye
+holidays: holidays .... ki jis din ja rha hai ... us din festival ya holiday hai ki nhi
+
+
+
+
+
+ 

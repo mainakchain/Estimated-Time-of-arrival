@@ -1,0 +1,131 @@
+
+Unnamed: 0	origin	destination	toll_both	vehicle_no	loading_out_time	odometer_km	ist_timestamp	distance_from_toll	loading_in_time	start_date	eta	unloading_in_time	slug	delivery_status	distance_travelled	late_by_hrs	time_taken
+4699	4481	Jamshedpur	HOSUR	Sergrarh	OR04M5329	2017-11-27 03:32:37	5681.83	2017-11-27 23:36:11	0.723117	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	0.00	-77.9425	20.059444
+4610	4482	Jamshedpur	HOSUR	Panikholi	OR04M5329	2017-11-27 03:32:37	5775.70	2017-11-28 01:47:22	0.397454	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	93.87	-77.9425	22.245833
+4482	4483	Jamshedpur	HOSUR	Manguli	OR04M5329	2017-11-27 03:32:37	5829.30	2017-11-28 03:16:23	0.535038	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	147.47	-77.9425	23.729444
+4141	4484	Jamshedpur	HOSUR	Gudipada (Old Gangapada)	OR04M5329	2017-11-27 03:32:37	5885.36	2017-11-28 04:55:32	0.518456	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	203.53	-77.9425	25.381944
+4186	4485	Jamshedpur	HOSUR	Gurapalli	OR04M5329	2017-11-27 03:32:37	5973.56	2017-11-28 06:51:42	0.438839	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	291.73	-77.9425	27.318056
+3933	4486	Jamshedpur	HOSUR	Bellupada	OR04M5329	2017-11-27 03:32:37	6057.61	2017-11-28 09:39:14	0.305959	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	375.78	-77.9425	30.110278
+4434	4487	Jamshedpur	HOSUR	Madapam	OR04M5329	2017-11-27 03:32:37	6172.88	2017-11-28 14:25:34	0.773443	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	491.05	-77.9425	34.882500
+4060	4488	Jamshedpur	HOSUR	Chilakapalem	OR04M5329	2017-11-27 03:32:37	6200.24	2017-11-28 15:10:50	0.470717	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	518.41	-77.9425	35.636944
+4563	4490	Jamshedpur	HOSUR	Nathavalasa/ Vizianagaram	OR04M5329	2017-11-27 03:32:37	6240.03	2017-11-28 16:47:30	0.665695	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	558.20	-77.9425	37.248056
+4390	4489	Jamshedpur	HOSUR	Laxmipuram	OR04M5329	2017-11-27 03:32:37	6240.03	2017-11-28 16:47:30	0.661798	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	558.20	-77.9425	37.248056
+4832	4491	Jamshedpur	HOSUR	Vempadu	OR04M5329	2017-11-27 03:32:37	6368.40	2017-11-29 05:10:12	0.748785	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	686.57	-77.9425	49.626389
+4345	4492	Jamshedpur	HOSUR	Krishnavaram	OR04M5329	2017-11-27 03:32:37	6438.13	2017-11-29 07:49:24	0.993969	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	756.30	-77.9425	52.279722
+4250	4493	Jamshedpur	HOSUR	Kalaparru	OR04M5329	2017-11-27 03:32:37	6583.57	2017-11-29 12:33:20	0.428357	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	901.74	-77.9425	57.011944
+4656	4494	Jamshedpur	HOSUR	Pottipadu	OR04M5329	2017-11-27 03:32:37	6604.64	2017-11-29 13:10:20	0.908660	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	922.81	-77.9425	57.628611
+4293	4495	Jamshedpur	HOSUR	Kaza	OR04M5329	2017-11-27 03:32:37	6650.35	2017-11-29 14:49:24	0.655489	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	968.52	-77.9425	59.279722
+3972	4496	Jamshedpur	HOSUR	Bolapalli	OR04M5329	2017-11-27 03:32:37	6732.61	2017-11-29 17:51:43	0.706771	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	1050.78	-77.9425	62.318333
+4742	4497	Jamshedpur	HOSUR	Sunambatti (Musunur)	OR04M5329	2017-11-27 03:32:37	6859.03	2017-11-29 21:55:05	0.531573	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	1177.20	-77.9425	66.374444
+4875	4498	Jamshedpur	HOSUR	Venkatachallam &#160;(Old Nellore)	OR04M5329	2017-11-27 03:32:37	6925.91	2017-11-29 23:32:19	0.775342	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	1244.08	-77.9425	67.995000
+4015	4499	Jamshedpur	HOSUR	Budanam	OR04M5329	2017-11-27 03:32:37	6956.63	2017-11-30 07:03:53	0.564202	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	1274.80	-77.9425	75.521111
+4100	4500	Jamshedpur	HOSUR	Gaddurur	OR04M5329	2017-11-27 03:32:37	7174.54	2017-11-30 16:22:00	0.894158	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	1492.71	-77.9425	84.823056
+4522	4501	Jamshedpur	HOSUR	Mulbagal	OR04M5329	2017-11-27 03:32:37	7205.71	2017-11-30 17:32:56	0.469050	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	1523.88	-77.9425	86.005278
+4216	4502	Jamshedpur	HOSUR	Hoskote	OR04M5329	2017-11-27 03:32:37	7266.52	2017-11-30 21:33:16	0.654351	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	1584.69	-77.9425	90.010833
+3908	4503	Jamshedpur	HOSUR	Attibele (BETL)	OR04M5329	2017-11-27 03:32:37	7302.32	2017-11-30 23:16:39	0.902463	2017-11-25 05:57:26	2017-11-25 00:00:00	2017-12-07 00:00:00	2017-12-04 00:00:53	ETXSF000	early	1620.49	-77.9425	91.733889
+
+
+
+Panikholi, Manguli, Gudipada (Old Gangapada), Gurapalli, Bellupada, Madapam, Chilakapalem, Nathavalasa/ Vizianagaram, Laxmipuram, Vempadu, Krishnavaram, Kalaparru, Pottipadu, Kaza, Bolapalli, Sunambatti (Musunur), Venkatachallam &#160;(Old Nellore), Budanam, Gaddurur, Mulbagal, Hoskote, Attibele (BETL)
+
+Panikholi,Manguli,Gudipada (Old Gangapada),Gurapalli,Bellupada,Madapam,Chilakapalem,Nathavalasa/ Vizianagaram,Laxmipuram,Vempadu,Krishnavaram,Kalaparru,Pottipadu,Kaza,Bolapalli,Sunambatti (Musunur),Venkatachallam &#160;(Old Nellore),Budanam,Gaddurur,Mulbagal,Hoskote,Attibele (BETL)
+
+Sergrarh,Panikholi,Manguli,Gudipada (Old Gangapada),Gurapalli,Bellupada,Madapam,Chilakapalem,Nathavalasa/ Vizianagaram,Vempadu,Krishnavaram,Kalaparru,Pottipadu,Kaza,Bolapalli,Tangutur,Sunambatti (Musunur),Budanam,Gaddurur,Mulbagal
+
+Sergrarh,Panikholi,Manguli,Gudipada (Old Gangapada),Gurapalli,Bellupada,Madapam,Chilakapalem,Nathavalasa/ Vizianagaram,Vempadu,Krishnavaram,Kalaparru,Kaza,Bolapalli,Tangutur,Sunambatti (Musunur),Budanam,Gaddurur
+
+
+Enter the vehicle no.: OR04M532M
+Enter the start date in %Y-%m-%d %H:%M:%S format: 2017-11-02 00:00:00
+Enter the loading out time in %Y-%m-%d %H:%M:%S format: 2017-11-03 12:02:43
+Enter the number of tolls vehicle crossed sequentitially: 3
+      
+Toll both: Sergrarh
+Distance travelled from 1st toll in km: 0
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-11-04 08:22:51
+Toll both: Panikholi
+Distance travelled from 1st toll in km: 95.1
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-11-04 10:42:12
+Toll both: Manguli
+Distance travelled from 1st toll in km: 146.8
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-11-04 12:10:12
+Enter the numbers of tolls the vehicle shall take in the journey sequentially: Gudipada (Old Gangapada),Gurapalli,Bellupada,Madapam,Chilakapalem,Nathavalasa/ Vizianagaram,Laxmipuram,Vempadu,Krishnavaram,Kalaparru,Pottipadu,Kaza,Bolapalli,Sunambatti (Musunur),Venkatachallam &#160;(Old Nellore),Budanam,Gaddurur,Mulbagal,Hoskote,Attibele (BETL)
+Want to enter more vehicles?(y/n)OR04M53MM
+Enter the vehicle no.: OR04M53MM
+Enter the start date in %Y-%m-%d %H:%M:%S format: 2017-10-20 00:00:00
+Enter the loading out time in %Y-%m-%d %H:%M:%S format: 2017-10-21 21:00:42
+Enter the number of tolls vehicle crossed sequentitially: 5
+      
+Toll both: Sergrarh
+Distance travelled from 1st toll in km: 0
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-10-22 17:11:43
+Toll both: Panikholi
+Distance travelled from 1st toll in km: 94.6
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-10-22 19:35:13
+Toll both: Manguli
+Distance travelled from 1st toll in km: 146.5
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-10-22 21:10:53
+Toll both: Gudipada (Old Gangapada)
+Distance travelled from 1st toll in km: 204.6
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-10-22 23:20:17
+Toll both: Gurapalli
+Distance travelled from 1st toll in km: 293.59
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-10-23 01:35:49
+Enter the numbers of tolls the vehicle shall take in the journey sequentially: Bellupada,Madapam,Chilakapalem,Nathavalasa/ Vizianagaram,Laxmipuram,Vempadu,Krishnavaram,Kalaparru,Pottipadu,Kaza,Bolapalli,Sunambatti (Musunur),Venkatachallam &#160;(Old Nellore),Budanam,Gaddurur,Mulbagal,Hoskote,Attibele (BETL)
+Want to enter more vehicles?(y/n)n
+bbye
+
+
+
+
+Choose the vehjcle no.
+1  BR02GA0735
+2  TN28BB9075
+3  JH02M1289
+Enter the vehicle no.: BR02GA0735
+Enter the start date in %Y-%m-%d %H:%M:%S format: 2017-11-02 00:00:00
+Enter the loading out time in %Y-%m-%d %H:%M:%S format: 2017-11-03 12:02:43
+Enter the number of tolls vehicle crossed SEQUENTIALLY: 3
+      
+Toll both: Sergrarh
+Distance travelled from previous toll in km: 0
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-11-04 08:22:51
+Toll both: Panikholi
+Distance travelled from previous toll in km: 95.1
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-11-04 10:42:12
+Toll both: Manguli
+Distance travelled from previous toll in km: 54
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-11-04 12:10:12
+Want to enter more vehicles?(y/n)y
+Choose the vehjcle no.
+1  TN28BB9075
+2  JH02M1289
+Enter the vehicle no.: TN28BB9075
+Enter the start date in %Y-%m-%d %H:%M:%S format: 2017-10-03 00:00:00
+Enter the loading out time in %Y-%m-%d %H:%M:%S format: 2017-10-03 22:10:00
+Enter the number of tolls vehicle crossed SEQUENTIALLY: 2
+      
+Toll both: Sergrarh
+Distance travelled from previous toll in km: 0
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-10-04 18:10:00
+Toll both: Panikholi
+Distance travelled from previous toll in km: 94
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-10-04 20:40:53
+Want to enter more vehicles?(y/n)y
+Choose the vehjcle no.
+1  JH02M1289
+Enter the vehicle no.: JH02M1289
+Enter the start date in %Y-%m-%d %H:%M:%S format: 2017-11-22 00:00:00
+Enter the loading out time in %Y-%m-%d %H:%M:%S format: 2017-11-22 23:12:20
+Enter the number of tolls vehicle crossed SEQUENTIALLY: 2
+      
+Toll both: Sergrarh
+Distance travelled from previous toll in km: 0
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-11-23 19:45:25
+Toll both: Panikholi
+Distance travelled from previous toll in km: 53.8
+IST Timestamp in %Y-%m-%d %H:%M:%S format: 2017-11-23 22:15:25
+Want to enter more vehicles?(y/n)n
+bbye
+
+
