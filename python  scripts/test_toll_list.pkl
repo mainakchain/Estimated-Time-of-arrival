@@ -1,0 +1,44 @@
+(lp0
+S'Sergrarh'
+p1
+aS'Panikholi'
+p2
+aS'Manguli'
+p3
+aS'Gudipada (Old Gangapada)'
+p4
+aS'Gurapalli'
+p5
+aS'Bellupada'
+p6
+aS'Madapam'
+p7
+aS'Chilakapalem'
+p8
+aS'Laxmipuram'
+p9
+aS'Nathavalasa/ Vizianagaram'
+p10
+aS'Vempadu'
+p11
+aS'Krishnavaram'
+p12
+aS'Kalaparru'
+p13
+aS'Pottipadu'
+p14
+aS'Kaza'
+p15
+aS'Bolapalli'
+p16
+aS'Tangutur'
+p17
+aS'Sunambatti (Musunur)'
+p18
+aS'Budanam'
+p19
+aS'Gaddurur'
+p20
+aS'Mulbagal'
+p21
+a.
