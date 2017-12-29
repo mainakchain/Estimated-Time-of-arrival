@@ -90,6 +90,7 @@ else:
                                          'day_of_travel', 'month_of_travel', 'days_from_now'])
 
 new_test_df = new_test_df.append(add_test_df)
+test_df = new_test_df.copy()
 
 
 new_test_df['toll_both'] = new_test_df['toll_both'].replace(loaded_new_toll_dict_dist_cum)

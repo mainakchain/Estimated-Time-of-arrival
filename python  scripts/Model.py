@@ -178,6 +178,8 @@ def algorithm_training(train_df):
        solver='lbfgs', tol=0.0001, validation_fraction=0.1, verbose=False,
        warm_start=False)
 
+	reg_mlp.fit(X_train_scaled, y_train)
+
 	scores = cross_val_score(reg_mlp, X_train_scaled, y_train, scoring='neg_mean_squared_error', n_jobs=-1)
 	print("Accuracy: %0.2f (+/- %0.2f)" % (np.abs(scores).mean(), scores.std() * 2))
 
