@@ -31,12 +31,10 @@ from sklearn.preprocessing import MinMaxScaler
 # from sklearn.svm import SVR
 import pickle
 import operator
+import ast
 
 
-#rev_dict_vehicle_no
-#new_toll_dict_time_cum
-#test_toll_list
-new_toll_dict_time = {}
+new_toll_dict_time = {}                                               #declaring all the required dictionaries and lists for conversion
 x_time = {}
 new_toll_dict_time_cum = {}
 x_time_cum = {}
@@ -49,7 +47,7 @@ test_toll_list = []
 
 rev_dict_vehicle_no = {}
 
-def change_vehicle_no_to_dummy(df):
+def change_vehicle_no_to_dummy(df):                                   #function to convert vehicle to dummies
     num = 1
     dict_vehicle_no = {}
     for truck in df['vehicle_no'].unique().tolist():
@@ -59,7 +57,7 @@ def change_vehicle_no_to_dummy(df):
     return dict_vehicle_no
 
 
-def find_toll_num(df):
+def find_toll_num(df):												 #function to convert toll_both to dummies
 
     toll_dict_time = {}
     new_toll_dict_time = {}
@@ -118,7 +116,7 @@ def find_toll_num(df):
     return new_toll_dict_time, x_time, new_toll_dict_time_cum,x_time_cum,new_toll_dict_dist, x_dist, new_toll_dict_dist_cum, x_dist_cum
 
 
-def train_dataset_extraction(df):
+def train_dataset_extraction(df):                                      #extracting the required fields and pickling the necessary dictionaries/lists
 
 	new_toll_dict_time,x_time, new_toll_dict_time_cum, x_time_cum, new_toll_dict_dist, x_dist, new_toll_dict_dist_cum, x_dist_cum = find_toll_num(df)
 
@@ -158,7 +156,7 @@ def train_dataset_extraction(df):
 	return train_df
 
 
-def algorithm_training(train_df):
+def algorithm_training(train_df):                                                   #training and saving of the model
 
 
 	train_X = train_df.drop(['time_btn_tolls'], axis=1)
@@ -177,6 +175,34 @@ def algorithm_training(train_df):
        nesterovs_momentum=True, power_t=0.5, random_state=43, shuffle=True,
        solver='lbfgs', tol=0.0001, validation_fraction=0.1, verbose=False,
        warm_start=False)
+
+	tune = raw_input('Do you wanna tune the hyper-parameters (WILL TAKE TIME DEPENDING ON YOUR INPUT)? (y/n): ')
+	if tune == 'y':
+		params = raw_input('Enter the hyper parameter dict: ')
+		params = ast.literal_eval(params)
+
+		grid = GridSearchCV(reg_mlp, cv=5,
+		                   param_grid=params, verbose=2, n_jobs=-1, scoring='neg_mean_squared_error')
+
+		grid_result = grid.fit(X_train_scaled, y_train)
+
+		
+		print("Grid scores on development set:")
+		for parameters, mean_score, scores in grid_result.grid_scores_:
+		    print("%0.3f (+/-%0.03f) for %r"
+		          % (mean_score, scores.std() / 2, parameters))
+
+		print ''
+		print("Best parameters set found on development set:")
+		print(grid_result.best_estimator_)
+
+		reg_mlp = grid_result.best_estimator_
+
+	elif tune == 'n':
+		pass
+	else:
+		print 'Wrong choice!!'
+
 
 	reg_mlp.fit(X_train_scaled, y_train)
 
